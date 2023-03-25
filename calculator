@@ -1,0 +1,78 @@
+console.log("****welcome to aryan calculator****");
+console.log("1.Addition");
+console.log("2.Subtraction");
+console.log("3.Multiplication");
+console.log("4.Division");
+console.log("5.Exponential");
+console.log("6.Modulus");
+let choice=prompt("enter the operation you want to perform");
+switch(choice)
+  {
+    case 1:
+      {
+        let a=prompt("enter the value of a");
+        a=Number.parseInt(a);
+        let b=prompt("enter the value of b");
+        b=Number.parseInt(b);
+        let c=a+b;
+        c=Number.parseInt(c);
+        console.log("the sum of a and b is ",c);
+      break;
+      }
+        case 2:
+      {
+        let a=prompt("enter the value of a");
+        a=Number.parseInt(a);
+        let b=prompt("enter the value of b");
+        b=Number.parseInt(b);
+        let c=a-b;
+        c=Number.parseInt(c);
+        console.log("the subtraction of a and b is ",c);
+     break;
+      }
+      case 3:
+      {
+        let a=prompt("enter the value of a");
+        a=Number.parseInt(a);
+        let b=prompt("enter the value of b");
+        b=Number.parseInt(b);
+        let c=a*b;
+        c=Number.parseInt(c);
+        console.log("the Multiplication of a and b is ",c);
+      break;
+      }
+      case 4:
+      {
+        let a=prompt("enter the value of a");
+        a=Number.parseInt(a);
+        let b=prompt("enter the value of b");
+        b=Number.parseInt(b);
+        let c=a/b;
+        c=Number.parseInt(c);
+        console.log("the division of a and b is ",c);
+      break;
+      }
+      case 5:
+      {
+        let a=prompt("enter the value of a");
+        a=Number.parseInt(a);
+        let b=prompt("enter the value of b");
+        b=Number.parseInt(b);
+        let c=a**b;
+        c=Number.parseInt(c);
+        console.log("the power of a to b is ",c);
+      break;
+      }
+      case 6:
+      {
+        let a=prompt("enter the value of a");
+        a=Number.parseInt(a);
+        let b=prompt("enter the value of b");
+        b=Number.parseInt(b);
+        let c=a%b;
+        c=Number.parseInt(c);
+        console.log("the reaminder of a and b is ",c);
+        break;
+      }
+      
+  }
