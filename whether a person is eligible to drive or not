@@ -4,3 +4,8 @@ if(age>=18 && age<=100)
   alert("valid")
 else
   alert("notvalid");
+
+//using ternary operator
+let age=prompt("enter the age");
+age=Number.parseInt(age);
+(age>=18 && age<=100)?alert("valid"):alert("invalid");
