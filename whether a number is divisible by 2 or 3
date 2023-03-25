@@ -1,0 +1,6 @@
+let num=prompt("enter the number");
+num=Number.parseInt(num);
+if(num%2==0 || num%3==0)
+  alert("yessss");
+else
+  alert("nooooo");
